@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
 
   constructor(private http : HttpClient){}
   
-  ngOnInit(): void {
+  ngOnInit() {
     this.getUsers();
   }
 
